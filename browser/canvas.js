@@ -135,9 +135,9 @@ window.addEventListener('load', () => {
 
                     const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
 
-                    gradient.addColorStop('0', 'red');
-                    gradient.addColorStop('0.5', 'green');
-                    gradient.addColorStop('1', 'blue');
+                    gradient.addColorStop(0, 'red');
+                    gradient.addColorStop(0.5, 'green');
+                    gradient.addColorStop(1, 'blue');
 
                     ctx.fillStyle = gradient;
 
