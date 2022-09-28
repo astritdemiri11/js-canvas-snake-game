@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+
+    <script src="./canvas.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="settings">
+        <label for="color">Color: </label>
+        <select name="color" id="color">
+            <option value="brown">Brown</option>
+            <option value="green" selected>Green</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        <label for="speed">Speed: </label>
+        <input name="speed" id="speed" value="7"/>
+
+        <button type="button" id="start-game">Start game</button>
+    </div>
+
+    <canvas></canvas>
+
+    <div class="buttons">
+        <div>
+            <button type="button" id="left-button">Left</button>
+        </div>
+
+        <div class="vertical-buttons">
+            <div>
+                <button type="button" id="up-button">Up</button>
+            </div>
+            
+            <div>
+                <button type="button" id="down-button">Down</button>
+            </div>
+        </div>
+
+        <button type="button" id="right-button">Right</button>
+    </div>
+</body>
+
+</html>

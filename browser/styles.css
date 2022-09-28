@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    box-shadow: black 20px 10px 50px;
+    margin-bottom: 32px;
+}
+
+.settings {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.settings input {
+    width: 22px;
+    margin-right: 16px;
+}
+
+.settings select {
+    margin-right: 16px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons > div:not(:last-child) {
+    margin-right: 16px;
+}
+
+.buttons .vertical-buttons > div:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.buttons button {
+    width: 100px;
+    height: 100px;
+}
